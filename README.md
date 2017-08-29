@@ -14,4 +14,4 @@ android上基于tasker创建的英文键盘，通过字母快速查找应用，�
 
 ## 预览
 <div align=center><img height="960" width="540" src="https://github.com/bjc5233/tasker-keyboard/raw/master/resources/demo.png"/></div>
-<div align=center><img height="960" width="540" src="https://github.com/bjc5233/tasker-keyboard/raw/master/resources/demo.gif"/></div>
+<div align=center><img height="480" width="270" src="https://github.com/bjc5233/tasker-keyboard/raw/master/resources/demo.gif"/></div>
