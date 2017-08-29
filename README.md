@@ -10,10 +10,8 @@ android上基于tasker创建的英文键盘，通过字母快速查找应用，�
 * 在tasker->keyboard-pinyin任务中修改pinyingMine.js、apkBlacklistName.txt的位置
 * 在桌面创建管理keyboard任务的快捷方式
 * 首次点击该快捷方式，会展示键盘界面，通过字母搜索；再次点击快捷方式，或点击↓会关闭键盘界面
+* *目前搜索应用较慢，后续优化*
 
 ## 预览
 <div align=center><img height="960" width="540" src="https://github.com/bjc5233/tasker-keyboard/raw/master/resources/demo.png"/></div>
-<video width="320" height="240" controls>
-  <source src="https://github.com/bjc5233/tasker-keyboard/raw/master/resources/demo.mp4" type="video/mp4">
-  您的浏览器不支持 video 标签。
-</video>
+<div align=center><img height="960" width="540" src="https://github.com/bjc5233/tasker-keyboard/raw/master/resources/demo.gif"/></div>

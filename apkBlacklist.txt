@@ -1,0 +1,65 @@
+WallpaperManager@com.oppo.wallpaper
+BlackGestureCustom@com.oppo.gestureguide.custom
+Secure UI Service@com.qualcomm.qti.services.secureui
+WeatherSnow@com.oppo.liveweather.newsnow
+翻转解锁@com.oppo.LockScreenGlassBoard
+相框@com.tsf.shell.widget.adornment
+UserInfoSettings@com.oppo.settings
+WeatherThundershower@com.oppo.liveweather.newthundershower
+WeatherDandelion@com.oppo.liveweather.newdandelion
+GlobalThemeContentProvider@com.oppo.globalthemecontentprovider
+ColorOSLauncherSystem@com.oppo.launcherSystem
+Pico TTS@com.svox.pico
+刷刷乐@com.oppo.scratch
+WeatherFog@com.oppo.liveweather.newfog
+C2U@com.oppo.c2u
+org.codeaurora.btmultisim@org.codeaurora.btmultisim
+主题商店辅助组件@com.nearme.themespacelib
+SVI Settings@com.qualcomm.svi
+Screenshot Delay Remover@com.mohammadag.screenshotdelayremover
+NearmeDataSync@com.nearme.ds
+PermissonsProvider@com.oppo.providers.permissions
+全局手势板@com.oppo.gesture
+微X模块@com.fkzhang.wechatxposed
+自由截屏@com.oppo.oppofreescreenshots
+OppoWeatherLocationService@com.oppo.weather.locationservice
+安全服务@com.nearme.romupdate
+SafeProvider@com.oppo.safeprovider
+Android 系统@android
+号码归属地@com.oppo.phonenoareainquire
+帐号服务@com.oppo.service.account
+VwuService@com.oppo.vwu
+ColorOS 系统@oppo
+Content Adaptive Backlight Settings@com.qualcomm.cabl
+骚扰拦截@com.oppo.blacklist
+WeatherHaze@com.oppo.liveweather.newhaze
+RHGNFCTSM2@com.richhouse.android.tsm2.service
+卡片解锁@com.oppo.card
+TaskManager@com.oppo.taskmanager
+个人中心@com.oppo.usercenter
+AllowUsbDebuggingCritically@com.oppo.allowusbdebuggingcritically
+PreventMode@com.oppo.preventmode
+org.codeaurora.ims@org.codeaurora.ims
+支付宝安全校验服务@com.alipay.security.mobile.authenticator
+OppoKinectService@com.oppo.kinect
+百变解锁@com.color.enginelock
+SmartcardService@org.simalliance.openmobileapi.service
+OppoGestureGuide@com.oppo.gestureguide
+WeatherSunny@com.oppo.liveweather.newsunny
+NearMeDCS@com.nearme.statistics.rom
+上滑解锁@com.oppo.colorlock
+WeatherCloudy@com.oppo.liveweather.newcloudy
+oppo_debug@com.oppo.device.debug
+ColorOSUsbSelection@com.oppo.usbselection
+开机注册@com.oppo.bootreg
+WeatherRain@com.oppo.liveweather.newrain
+ProxyKeyguard@com.oppo.proxykeyguard
+LocationServices@com.qualcomm.location
+NetworkLocation@com.baidu.map.location
+Wfd Service@com.qualcomm.wfd.service
+NFC闪电传输@com.oppo.filetransfer
+oppo_debug@com.oppo.debug.savelogreceiver
+org.codeaurora.bluetooth@org.codeaurora.bluetooth
+DataDialog@com.oppo.datadialog
+DisableFlagSecure@fi.veetipaananen.android.disableflagsecure
+usbSelection@com.oppo.freepathscreenshot
