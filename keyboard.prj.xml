@@ -1,39 +1,39 @@
 <TaskerData sr="" dvi="1" tv="4.9u3m">
 	<dmetric>1080.0,1920.0</dmetric>
-	<Profile sr="prof120" ve="2">
-		<cdate>1503976394824</cdate>
-		<clp>true</clp>
-		<edate>1503976424812</edate>
-		<id>120</id>
-		<mid0>28</mid0>
-		<nme>安装应用时</nme>
-		<Event sr="con0" ve="2">
-			<code>450</code>
-			<Str sr="arg0" ve="3"/>
-		</Event>
-	</Profile>
-	<Profile sr="prof121" ve="2">
-		<cdate>1503976441217</cdate>
+	<Profile sr="prof88" ve="2">
+		<cdate>1504005508429</cdate>
 		<clp>true</clp>
 		<edate>1503976458564</edate>
-		<id>121</id>
-		<mid0>28</mid0>
+		<id>88</id>
+		<mid0>37</mid0>
 		<nme>卸载应用时</nme>
 		<Event sr="con0" ve="2">
 			<code>451</code>
 			<Str sr="arg0" ve="3"/>
 		</Event>
 	</Profile>
+	<Profile sr="prof89" ve="2">
+		<cdate>1504005508436</cdate>
+		<clp>true</clp>
+		<edate>1503976424812</edate>
+		<id>89</id>
+		<mid0>37</mid0>
+		<nme>安装应用时</nme>
+		<Event sr="con0" ve="2">
+			<code>450</code>
+			<Str sr="arg0" ve="3"/>
+		</Event>
+	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1503722608539</cdate>
 		<name>keyboard</name>
-		<pids>121,120</pids>
-		<scenes>appSelecter,keyboard</scenes>
-		<tids>90,95,92,110,112,88,103,63,87,36,98,109,96,89,114,113,116,101,102,111,97,100,107,118,115,117,28,93,94,105,108,99,91,86</tids>
+		<pids>88,89</pids>
+		<scenes>keyboard,appSelecter</scenes>
+		<tids>63,37,34,49,44,52,42,43,45,53,46,56,54,41,51,40,58,39,60,36,48,50,87,57,28,55,47,38,86,24,35,59,33,27</tids>
 	</Project>
 	<Scene sr="sceneappSelecter">
 		<cdate>1503559976713</cdate>
-		<edate>1503976313270</edate>
+		<edate>1504005636830</edate>
 		<gridSize>14</gridSize>
 		<heightLand>1005</heightLand>
 		<heightPort>600</heightPort>
@@ -43,7 +43,7 @@
 		<ListElement sr="elements0">
 			<flags>4</flags>
 			<geom>0,0,500,600,0,0,454,504</geom>
-			<itemclickTask>63</itemclickTask>
+			<itemclickTask>87</itemclickTask>
 			<Str sr="arg0" ve="3">apps</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">%app_search_names</Str>
@@ -145,14 +145,14 @@
 	</Scene>
 	<Scene sr="scenekeyboard">
 		<cdate>1503936806075</cdate>
-		<edate>1503976189971</edate>
+		<edate>1504005662757</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>594</heightPort>
 		<nme>keyboard</nme>
 		<widthLand>-1</widthLand>
 		<widthPort>855</widthPort>
 		<TextElement sr="elements0" ve="3">
-			<clickTask>87</clickTask>
+			<clickTask>24</clickTask>
 			<flags>4</flags>
 			<geom>472,172,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">h</Str>
@@ -178,7 +178,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements1" ve="3">
-			<clickTask>88</clickTask>
+			<clickTask>38</clickTask>
 			<flags>4</flags>
 			<geom>600,22,80,128,180,400,96,133</geom>
 			<Str sr="arg0" ve="3">i</Str>
@@ -204,7 +204,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements10" ve="3">
-			<clickTask>97</clickTask>
+			<clickTask>49</clickTask>
 			<flags>4</flags>
 			<geom>90,22,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">w</Str>
@@ -230,7 +230,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements11" ve="3">
-			<clickTask>98</clickTask>
+			<clickTask>45</clickTask>
 			<flags>4</flags>
 			<geom>260,22,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">r</Str>
@@ -256,7 +256,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements12" ve="3">
-			<clickTask>99</clickTask>
+			<clickTask>46</clickTask>
 			<flags>4</flags>
 			<geom>345,22,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">t</Str>
@@ -282,7 +282,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements13" ve="3">
-			<clickTask>100</clickTask>
+			<clickTask>43</clickTask>
 			<flags>4</flags>
 			<geom>430,22,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">y</Str>
@@ -308,7 +308,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements14" ve="3">
-			<clickTask>101</clickTask>
+			<clickTask>44</clickTask>
 			<flags>4</flags>
 			<geom>515,22,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">u</Str>
@@ -334,7 +334,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements15" ve="3">
-			<clickTask>102</clickTask>
+			<clickTask>41</clickTask>
 			<flags>4</flags>
 			<geom>685,22,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">o</Str>
@@ -360,7 +360,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements16" ve="3">
-			<clickTask>103</clickTask>
+			<clickTask>42</clickTask>
 			<flags>4</flags>
 			<geom>770,22,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">p</Str>
@@ -386,7 +386,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements17" ve="3">
-			<clickTask>105</clickTask>
+			<clickTask>55</clickTask>
 			<flags>4</flags>
 			<geom>132,172,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">s</Str>
@@ -412,7 +412,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements18" ve="3">
-			<clickTask>107</clickTask>
+			<clickTask>54</clickTask>
 			<flags>4</flags>
 			<geom>557,172,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">j</Str>
@@ -438,7 +438,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements19" ve="3">
-			<clickTask>108</clickTask>
+			<clickTask>52</clickTask>
 			<flags>4</flags>
 			<geom>642,172,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">k</Str>
@@ -464,7 +464,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements2" ve="3">
-			<clickTask>89</clickTask>
+			<clickTask>36</clickTask>
 			<flags>4</flags>
 			<geom>47,172,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">a</Str>
@@ -490,7 +490,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements20" ve="3">
-			<clickTask>109</clickTask>
+			<clickTask>53</clickTask>
 			<flags>4</flags>
 			<geom>727,172,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">l</Str>
@@ -516,7 +516,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements21" ve="3">
-			<clickTask>110</clickTask>
+			<clickTask>50</clickTask>
 			<flags>4</flags>
 			<geom>90,322,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">z</Str>
@@ -542,7 +542,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements22" ve="3">
-			<clickTask>111</clickTask>
+			<clickTask>51</clickTask>
 			<flags>4</flags>
 			<geom>175,322,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">x</Str>
@@ -568,7 +568,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements23" ve="3">
-			<clickTask>112</clickTask>
+			<clickTask>86</clickTask>
 			<flags>4</flags>
 			<geom>345,322,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">v</Str>
@@ -594,7 +594,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements24" ve="3">
-			<clickTask>113</clickTask>
+			<clickTask>63</clickTask>
 			<flags>4</flags>
 			<geom>515,322,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">n</Str>
@@ -620,7 +620,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements25" ve="3">
-			<clickTask>114</clickTask>
+			<clickTask>60</clickTask>
 			<flags>4</flags>
 			<geom>600,322,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">m</Str>
@@ -646,7 +646,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements26" ve="3">
-			<clickTask>115</clickTask>
+			<clickTask>59</clickTask>
 			<flags>4</flags>
 			<geom>685,322,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">del</Str>
@@ -697,7 +697,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements28" ve="3">
-			<clickTask>116</clickTask>
+			<clickTask>58</clickTask>
 			<flags>4</flags>
 			<geom>642,472,80,100,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">exit</Str>
@@ -723,7 +723,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements3" ve="3">
-			<clickTask>90</clickTask>
+			<clickTask>40</clickTask>
 			<flags>4</flags>
 			<geom>430,322,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">b</Str>
@@ -749,7 +749,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements4" ve="3">
-			<clickTask>91</clickTask>
+			<clickTask>39</clickTask>
 			<flags>4</flags>
 			<geom>260,322,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">c</Str>
@@ -775,7 +775,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements5" ve="3">
-			<clickTask>92</clickTask>
+			<clickTask>33</clickTask>
 			<flags>4</flags>
 			<geom>217,172,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">d</Str>
@@ -801,7 +801,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements6" ve="3">
-			<clickTask>93</clickTask>
+			<clickTask>28</clickTask>
 			<flags>4</flags>
 			<geom>175,22,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">e</Str>
@@ -827,7 +827,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements7" ve="3">
-			<clickTask>94</clickTask>
+			<clickTask>35</clickTask>
 			<flags>4</flags>
 			<geom>302,172,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">f</Str>
@@ -853,7 +853,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements8" ve="3">
-			<clickTask>95</clickTask>
+			<clickTask>34</clickTask>
 			<flags>4</flags>
 			<geom>387,172,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">g</Str>
@@ -879,7 +879,7 @@
 			</RectElement>
 		</TextElement>
 		<TextElement sr="elements9" ve="3">
-			<clickTask>96</clickTask>
+			<clickTask>47</clickTask>
 			<flags>4</flags>
 			<geom>5,22,80,128,33,400,105,125</geom>
 			<Str sr="arg0" ve="3">q</Str>
@@ -915,10 +915,10 @@
 			<Str sr="arg7" ve="3"/>
 		</PropertiesElement>
 	</Scene>
-	<Task sr="task100">
+	<Task sr="task24">
 		<cdate>1503938513252</cdate>
 		<edate>1503938513252</edate>
-		<id>100</id>
+		<id>24</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
@@ -926,449 +926,145 @@
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Str sr="arg2" ve="3">y</Str>
+			<Str sr="arg2" ve="3">h</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task101">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>101</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">u</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task102">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>102</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">o</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task103">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>103</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">p</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task105">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>105</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">s</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task107">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>107</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">j</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task108">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>108</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">k</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task109">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>109</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">l</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task110">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>110</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">z</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task111">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>111</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">x</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task112">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>112</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">v</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task113">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>113</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">n</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task114">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>114</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">m</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task115">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>115</id>
-		<pri>9</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-del</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task116">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>116</id>
-		<pri>9</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-exit</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task117">
-		<cdate>1503555408808</cdate>
-		<edate>1503975933060</edate>
-		<id>117</id>
-		<nme>keyboard-search</nme>
+	<Task sr="task27">
+		<cdate>1503937210555</cdate>
+		<edate>1504005766785</edate>
+		<id>27</id>
+		<nme>keyboard</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">appSelecter</Str>
+			<code>194</code>
+			<Str sr="arg0" ve="3">keyboard</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%is_keyboard_exist</Str>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%KEYBOARD</Str>
-			<Str sr="arg1" ve="3">%par1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>888</code>
-			<Str sr="arg0" ve="3">%app_index</Str>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>40</code>
-		</Action>
-		<Action sr="act12" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%app_search_packages1</lhs>
-					<op>13</op>
-					<rhs>*%KEYBOARD*</rhs>
+					<lhs>%is_keyboard_exist</lhs>
+					<op>0</op>
+					<rhs>uncreated</rhs>
 				</Condition>
 			</ConditionList>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">未找到应用</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%app_search_packages2</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">keyboard</Str>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%KEYBOARD</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cur_app_package</Str>
-			<Str sr="arg1" ve="3">%app_search_packages(1)</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">正在打开[%app_search_names1]</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var ok = loadApp(cur_app_package);</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">keyboard-search</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%KEYBOARD</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act20" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act21" ve="7">
 			<code>47</code>
-			<Str sr="arg0" ve="3">appSelecter</Str>
+			<Str sr="arg0" ve="3">keyboard</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="100"/>
-			<Int sr="arg3">
-				<var>10</var>
-			</Int>
+			<Int sr="arg3" val="100"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
 		</Action>
-		<Action sr="act22" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act3" ve="7">
-			<code>51</code>
-			<Str sr="arg0" ve="3">keyboard</Str>
-			<Str sr="arg1" ve="3">input</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">%KEYBOARD</Str>
-			<Str sr="arg4" ve="3"/>
+			<code>43</code>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%app_index</Str>
-			<Str sr="arg1" ve="3">1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>39</code>
-			<Str sr="arg0" ve="3">%app_pinyin</Str>
-			<Str sr="arg1" ve="3">%APPPINYINS(1:)</Str>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%appname%app_pinyin</lhs>
-					<op>2</op>
-					<rhs>*%KEYBOARD*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>355</code>
-			<Str sr="arg0" ve="3">%app_search_names</Str>
-			<Int sr="arg1">
-				<var>%app_index</var>
-			</Int>
-			<Str sr="arg2" ve="3">%APPNAMES(%app_index)</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>355</code>
-			<Str sr="arg0" ve="3">%app_search_packages</Str>
-			<Int sr="arg1">
-				<var>%app_index</var>
-			</Int>
-			<Str sr="arg2" ve="3">%APPPACKAGES(%app_index)</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>38</code>
-		</Action>
-	</Task>
-	<Task sr="task118">
-		<cdate>1503489725546</cdate>
-		<edate>1503974832185</edate>
-		<id>118</id>
-		<nme>keyboard-exit</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%KEYBOARD</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">appSelecter</Str>
-		</Action>
-		<Action sr="act2" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">keyboard</Str>
 		</Action>
 		<Img sr="icn" ve="2">
-			<nme>cust_transparent</nme>
+			<nme>hd_aaa_ext_sort_2</nme>
 		</Img>
 	</Task>
 	<Task sr="task28">
-		<cdate>1503400909271</cdate>
-		<edate>1503977693364</edate>
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
 		<id>28</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">e</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task33">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>33</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">d</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task34">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>34</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">g</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task35">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>35</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">f</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task36">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>36</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">a</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task37">
+		<cdate>1503400909271</cdate>
+		<edate>1504005952883</edate>
+		<id>37</id>
 		<nme>keyboard-pinyin</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -1554,10 +1250,180 @@
 			<Str sr="arg2" ve="3">%appname</Str>
 		</Action>
 	</Task>
-	<Task sr="task36">
+	<Task sr="task38">
+		<cdate>1503938544640</cdate>
+		<edate>1503938544640</edate>
+		<id>38</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">i</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task39">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>39</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">c</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task40">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>40</id>
+		<pri>9</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">b</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task41">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>41</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">o</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task42">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>42</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">p</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task43">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>43</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">y</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task44">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>44</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">u</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task45">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>45</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">r</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task46">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>46</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">t</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task47">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>47</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">q</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task48">
 		<cdate>1503517251400</cdate>
-		<edate>1503974564184</edate>
-		<id>36</id>
+		<edate>1504005548716</edate>
+		<id>48</id>
 		<nme>keyboard-del</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -1623,10 +1489,409 @@ setGlobal('KEYBOARD', keyboard);</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
+	<Task sr="task49">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>49</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">w</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task50">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>50</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">z</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task51">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>51</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">x</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task52">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>52</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">k</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task53">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>53</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">l</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task54">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>54</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">j</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task55">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>55</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">s</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task56">
+		<cdate>1503489725546</cdate>
+		<edate>1504005532762</edate>
+		<id>56</id>
+		<nme>keyboard-exit</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%KEYBOARD</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">appSelecter</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">keyboard</Str>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>cust_transparent</nme>
+		</Img>
+	</Task>
+	<Task sr="task57">
+		<cdate>1503555408808</cdate>
+		<edate>1504005962606</edate>
+		<id>57</id>
+		<nme>keyboard-search</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">appSelecter</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%KEYBOARD</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%app_index</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%app_search_packages1</lhs>
+					<op>13</op>
+					<rhs>*%KEYBOARD*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">未找到应用</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%app_search_packages2</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">keyboard</Str>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%KEYBOARD</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%cur_app_package</Str>
+			<Str sr="arg1" ve="3">%app_search_packages(1)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">正在打开[%app_search_names1]</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var ok = loadApp(cur_app_package);</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">keyboard-search</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%KEYBOARD</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">appSelecter</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3">
+				<var>10</var>
+			</Int>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">keyboard</Str>
+			<Str sr="arg1" ve="3">input</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%KEYBOARD</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%app_index</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%app_pinyin</Str>
+			<Str sr="arg1" ve="3">%APPPINYINS(1:)</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%app_pinyin</lhs>
+					<op>2</op>
+					<rhs>*%KEYBOARD*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%app_search_names</Str>
+			<Int sr="arg1">
+				<var>%app_index</var>
+			</Int>
+			<Str sr="arg2" ve="3">%APPNAMES(%app_index)</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%app_search_packages</Str>
+			<Int sr="arg1">
+				<var>%app_index</var>
+			</Int>
+			<Str sr="arg2" ve="3">%APPPACKAGES(%app_index)</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task58">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>58</id>
+		<pri>9</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-exit</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task59">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>59</id>
+		<pri>9</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-del</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task60">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>60</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">m</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
 	<Task sr="task63">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>63</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">n</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task86">
+		<cdate>1503938513252</cdate>
+		<edate>1503938513252</edate>
+		<id>86</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-search</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">v</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task87">
 		<cdate>1503581778981</cdate>
 		<edate>1503581778981</edate>
-		<id>63</id>
+		<id>87</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>548</code>
@@ -1655,271 +1920,6 @@ setGlobal('KEYBOARD', keyboard);</Str>
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task86">
-		<cdate>1503937210555</cdate>
-		<edate>1503975686632</edate>
-		<id>86</id>
-		<nme>keyboard</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>194</code>
-			<Str sr="arg0" ve="3">keyboard</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">%is_keyboard_exist</Str>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%is_keyboard_exist</lhs>
-					<op>0</op>
-					<rhs>uncreated</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>47</code>
-			<Str sr="arg0" ve="3">keyboard</Str>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">keyboard</Str>
-		</Action>
-		<Img sr="icn" ve="2">
-			<nme>hd_aaa_ext_sort_2</nme>
-		</Img>
-	</Task>
-	<Task sr="task87">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>87</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">h</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task88">
-		<cdate>1503938544640</cdate>
-		<edate>1503938544640</edate>
-		<id>88</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">i</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task89">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>89</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">a</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task90">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>90</id>
-		<pri>9</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">b</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task91">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>91</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">c</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task92">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>92</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">d</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task93">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>93</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">e</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task94">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>94</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">f</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task95">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>95</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">g</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task96">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>96</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">q</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task97">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>97</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">w</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task98">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>98</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">r</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task99">
-		<cdate>1503938513252</cdate>
-		<edate>1503938513252</edate>
-		<id>99</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-search</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">t</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
