@@ -28,124 +28,12 @@
 		<cdate>1503722608539</cdate>
 		<name>keyboard</name>
 		<pids>88,89</pids>
-		<scenes>keyboard,appSelecter</scenes>
-		<tids>63,37,34,49,44,52,42,43,45,53,46,56,54,41,51,40,58,39,60,36,48,50,87,57,28,55,47,38,86,24,35,59,33,27</tids>
+		<scenes>keyboard-apps,keyboard</scenes>
+		<tids>41,60,59,49,47,54,52,34,40,86,85,55,33,63,37,43,53,24,39,51,57,42,58,38,44,45,48,56,50,46,27,36,28,35</tids>
 	</Project>
-	<Scene sr="sceneappSelecter">
-		<cdate>1503559976713</cdate>
-		<edate>1504005636830</edate>
-		<gridSize>14</gridSize>
-		<heightLand>1005</heightLand>
-		<heightPort>600</heightPort>
-		<nme>appSelecter</nme>
-		<widthLand>954</widthLand>
-		<widthPort>500</widthPort>
-		<ListElement sr="elements0">
-			<flags>4</flags>
-			<geom>0,0,500,600,0,0,454,504</geom>
-			<itemclickTask>87</itemclickTask>
-			<Str sr="arg0" ve="3">apps</Str>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">%app_search_names</Str>
-			<Int sr="arg3" val="1"/>
-			<Scene sr="arg4">
-				<Scene sr="val">
-					<cdate>1503566860368</cdate>
-					<edate>1503566860368</edate>
-					<heightLand>168</heightLand>
-					<heightPort>60</heightPort>
-					<nme>Builtin Item Layout</nme>
-					<widthLand>454</widthLand>
-					<widthPort>500</widthPort>
-					<ImageElement sr="elements0" ve="2">
-						<flags>1</flags>
-						<geom>183,0,148,60,573,15,153,137</geom>
-						<Str sr="arg0" ve="3">Icon</Str>
-						<Img sr="arg1" ve="2">
-							<nme>hd_aaa_ext_tiles_small</nme>
-						</Img>
-						<Int sr="arg2" val="255"/>
-						<Str sr="arg3" ve="3">#FF0099CC</Str>
-					</ImageElement>
-					<TextElement sr="elements1" ve="3">
-						<flags>5</flags>
-						<geom>0,0,331,60,112,15,445,137</geom>
-						<Str sr="arg0" ve="3">Label</Str>
-						<Str sr="arg1" ve="3"/>
-						<Int sr="arg2" val="13"/>
-						<Int sr="arg3" val="100"/>
-						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-						<Str sr="arg5" ve="3"/>
-						<Int sr="arg6" val="3"/>
-						<Int sr="arg7" val="0"/>
-						<Int sr="arg8" val="0"/>
-						<RectElement sr="background">
-							<flags>4</flags>
-							<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-							<Str sr="arg0" ve="3"/>
-							<Int sr="arg1" val="0"/>
-							<Str sr="arg2" ve="3"/>
-							<Str sr="arg3" ve="3"/>
-							<Int sr="arg4" val="0"/>
-							<Str sr="arg5" ve="3">#FF000000</Str>
-							<Int sr="arg6" val="0"/>
-							<Int sr="arg7" val="0"/>
-						</RectElement>
-					</TextElement>
-					<TextElement sr="elements2" ve="3">
-						<flags>1</flags>
-						<geom>54,0,81,60,15,15,81,137</geom>
-						<Str sr="arg0" ve="3">Index</Str>
-						<Str sr="arg1" ve="3">1.</Str>
-						<Int sr="arg2" val="24"/>
-						<Int sr="arg3" val="100"/>
-						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-						<Str sr="arg5" ve="3"/>
-						<Int sr="arg6" val="0"/>
-						<Int sr="arg7" val="0"/>
-						<Int sr="arg8" val="0"/>
-					</TextElement>
-					<PropertiesElement sr="props">
-						<Int sr="arg0" val="0"/>
-						<Int sr="arg1" val="2"/>
-						<Str sr="arg2" ve="3">#00000000</Str>
-						<Int sr="arg3" val="0"/>
-						<Str sr="arg4" ve="3">Builtin Item Layout</Str>
-						<Str sr="arg5" ve="3"/>
-						<Img sr="arg6" ve="2"/>
-						<Str sr="arg7" ve="3"/>
-					</PropertiesElement>
-				</Scene>
-			</Scene>
-			<Int sr="arg5" val="2"/>
-			<Int sr="arg6" val="0"/>
-			<RectElement sr="background">
-				<flags>4</flags>
-				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-				<Str sr="arg0" ve="3"/>
-				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3">#77333333</Str>
-				<Str sr="arg3" ve="3"/>
-				<Int sr="arg4" val="0"/>
-				<Str sr="arg5" ve="3">#FF000000</Str>
-				<Int sr="arg6" val="15"/>
-				<Int sr="arg7" val="0"/>
-			</RectElement>
-		</ListElement>
-		<PropertiesElement sr="props">
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3">#00FFFFFF</Str>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3">app选择</Str>
-			<Str sr="arg5" ve="3"/>
-			<Img sr="arg6" ve="2"/>
-			<Str sr="arg7" ve="3"/>
-		</PropertiesElement>
-	</Scene>
 	<Scene sr="scenekeyboard">
 		<cdate>1503936806075</cdate>
-		<edate>1504005662757</edate>
+		<edate>1504057239406</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>594</heightPort>
 		<nme>keyboard</nme>
@@ -915,6 +803,49 @@
 			<Str sr="arg7" ve="3"/>
 		</PropertiesElement>
 	</Scene>
+	<Scene sr="scenekeyboard-apps">
+		<cdate>1504006228201</cdate>
+		<edate>1504065673522</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>735</heightPort>
+		<nme>keyboard-apps</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>560</widthPort>
+		<WebElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>0,0,560,735,0,0,696,1192</geom>
+			<Str sr="arg0" ve="3">apps</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">%app_html</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#77333333</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="10"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</WebElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#00FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">test</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
 	<Task sr="task24">
 		<cdate>1503938513252</cdate>
 		<edate>1503938513252</edate>
@@ -934,10 +865,10 @@
 	</Task>
 	<Task sr="task27">
 		<cdate>1503937210555</cdate>
-		<edate>1504005766785</edate>
+		<edate>1504077649115</edate>
 		<id>27</id>
 		<nme>keyboard</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>194</code>
 			<Str sr="arg0" ve="3">keyboard</Str>
@@ -959,7 +890,9 @@
 			<Str sr="arg0" ve="3">keyboard</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
+			<Int sr="arg3">
+				<var>160</var>
+			</Int>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
@@ -971,6 +904,10 @@
 		<Action sr="act4" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">keyboard</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">keyboard-apps</Str>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hd_aaa_ext_sort_2</nme>
@@ -1063,21 +1000,21 @@
 	</Task>
 	<Task sr="task37">
 		<cdate>1503400909271</cdate>
-		<edate>1504005952883</edate>
+		<edate>1504078778465</edate>
 		<id>37</id>
-		<nme>keyboard-pinyin</nme>
+		<nme>keyboard-init</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>342</code>
 			<se>false</se>
 			<Int sr="arg0" val="4"/>
-			<Str sr="arg1" ve="3">/storage/sdcard1/software_me/systemWallpaper/apkBlacklistName.txt</Str>
+			<Str sr="arg1" ve="3">/storage/sdcard1/software_me/systemWallpaper/keyboard/apkBlacklistName.txt</Str>
 			<Str sr="arg2" ve="3">%apk_blacklist_file_exist</Str>
 			<Int sr="arg3" val="1"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>417</code>
-			<Str sr="arg0" ve="3">/storage/sdcard1/software_me/systemWallpaper/apkBlacklistName.txt</Str>
+			<Str sr="arg0" ve="3">/storage/sdcard1/software_me/systemWallpaper/keyboard/apkBlacklistName.txt</Str>
 			<Str sr="arg1" ve="3">%apk_blacklist_names</Str>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -1155,7 +1092,7 @@
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>131</code>
-			<Str sr="arg0" ve="3">/storage/sdcard1/software_me/systemWallpaper/pinyingMine.js</Str>
+			<Str sr="arg0" ve="3">/storage/sdcard1/software_me/systemWallpaper/keyboard/pinyingMine.js</Str>
 			<Str sr="arg1" ve="3"/>
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="45"/>
@@ -1164,7 +1101,7 @@
 			<code>355</code>
 			<Str sr="arg0" ve="3">%APPPACKAGES</Str>
 			<Int sr="arg1">
-				<var>%appinfoindex</var>
+				<var>%app_index</var>
 			</Int>
 			<Str sr="arg2" ve="3">%oneapp</Str>
 			<Int sr="arg3" val="0"/>
@@ -1173,7 +1110,7 @@
 			<code>355</code>
 			<Str sr="arg0" ve="3">%APPNAMES</Str>
 			<Int sr="arg1">
-				<var>%appinfoindex</var>
+				<var>%app_index</var>
 			</Int>
 			<Str sr="arg2" ve="3">%appname</Str>
 			<Int sr="arg3" val="0"/>
@@ -1195,22 +1132,38 @@
 			<code>355</code>
 			<Str sr="arg0" ve="3">%APPPINYINS</Str>
 			<Int sr="arg1">
-				<var>%appinfoindex</var>
+				<var>%app_index</var>
 			</Int>
 			<Str sr="arg2" ve="3">%firstletters</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act21" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-icon</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%oneapp</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act22" ve="7">
 			<code>888</code>
-			<Str sr="arg0" ve="3">%appinfoindex</Str>
+			<Str sr="arg0" ve="3">%app_index</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act23" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act24" ve="7">
 			<code>40</code>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">keyboard-init执行完成</Str>
+			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>357</code>
@@ -1232,7 +1185,7 @@
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%appinfoindex</Str>
+			<Str sr="arg0" ve="3">%app_index</Str>
 			<Str sr="arg1" ve="3">1</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -1422,7 +1375,7 @@
 	</Task>
 	<Task sr="task48">
 		<cdate>1503517251400</cdate>
-		<edate>1504005548716</edate>
+		<edate>1504077733670</edate>
 		<id>48</id>
 		<nme>keyboard-del</nme>
 		<pri>100</pri>
@@ -1454,7 +1407,7 @@ setGlobal('KEYBOARD', keyboard);</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>49</code>
-			<Str sr="arg0" ve="3">appSelecter</Str>
+			<Str sr="arg0" ve="3">keyboard-apps</Str>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>51</code>
@@ -1465,21 +1418,9 @@ setGlobal('KEYBOARD', keyboard);</Str>
 			<Str sr="arg4" ve="3"/>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">keyboard-del</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%KEYBOARD</lhs>
-					<op>0</op>
-					<rhs>\%KEYBOARD</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act5" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act5" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">keyboard-search</Str>
 			<Int sr="arg1" val="5"/>
@@ -1610,7 +1551,7 @@ setGlobal('KEYBOARD', keyboard);</Str>
 	</Task>
 	<Task sr="task56">
 		<cdate>1503489725546</cdate>
-		<edate>1504005532762</edate>
+		<edate>1504077735373</edate>
 		<id>56</id>
 		<nme>keyboard-exit</nme>
 		<pri>100</pri>
@@ -1621,7 +1562,7 @@ setGlobal('KEYBOARD', keyboard);</Str>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>49</code>
-			<Str sr="arg0" ve="3">appSelecter</Str>
+			<Str sr="arg0" ve="3">keyboard-apps</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>49</code>
@@ -1633,15 +1574,11 @@ setGlobal('KEYBOARD', keyboard);</Str>
 	</Task>
 	<Task sr="task57">
 		<cdate>1503555408808</cdate>
-		<edate>1504005962606</edate>
+		<edate>1504077742428</edate>
 		<id>57</id>
 		<nme>keyboard-search</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">appSelecter</Str>
-		</Action>
-		<Action sr="act1" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%KEYBOARD</Str>
 			<Str sr="arg1" ve="3">%par1</Str>
@@ -1656,70 +1593,7 @@ setGlobal('KEYBOARD', keyboard);</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act10" ve="7">
-			<code>888</code>
-			<Str sr="arg0" ve="3">%app_index</Str>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>40</code>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%app_search_packages1</lhs>
-					<op>13</op>
-					<rhs>*%KEYBOARD*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">未找到应用</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%app_search_packages2</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">keyboard</Str>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%KEYBOARD</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cur_app_package</Str>
-			<Str sr="arg1" ve="3">%app_search_packages(1)</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">正在打开[%app_search_names1]</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var ok = loadApp(cur_app_package);</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act1" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3">keyboard-search</Str>
@@ -1731,24 +1605,70 @@ setGlobal('KEYBOARD', keyboard);</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act20" ve="7">
-			<code>43</code>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%app_html</Str>
+			<Str sr="arg1" ve="3">&lt;div class="app" 
+onClick="exec(this, '%app_package');"&gt;&lt;img src="/storage/sdcard1/software_me/systemWallpaper/keyboard/icon/%app_package.png"&gt; %app_name&lt;/div&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act11" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%app_index</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%app_html</Str>
+			<Str sr="arg1" ve="3">&lt;script&gt;
+function exec(app, package) {
+    //app.style.backgroundColor="aqua";
+    loadApp(package);
+    performTask('keyboard-exit', 5);
+}
+&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">未找到应用</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%app_name</lhs>
+					<op>13</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
 			<code>47</code>
-			<Str sr="arg0" ve="3">appSelecter</Str>
+			<Str sr="arg0" ve="3">keyboard-apps</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3">
-				<var>10</var>
+				<var>45</var>
 			</Int>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
 		</Action>
-		<Action sr="act22" ve="7">
-			<code>38</code>
+		<Action sr="act2" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">keyboard-apps</Str>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>51</code>
@@ -1767,11 +1687,25 @@ setGlobal('KEYBOARD', keyboard);</Str>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%app_html</Str>
+			<Str sr="arg1" ve="3">&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;style&gt;
+img {width: 25px; height: 25px;vertical-align:middle;}
+.app {margin:5px;font-size:14px;color:#FFFFFF}
+&lt;/style&gt;
+&lt;body&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>39</code>
 			<Str sr="arg0" ve="3">%app_pinyin</Str>
 			<Str sr="arg1" ve="3">%APPPINYINS(1:)</Str>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -1781,33 +1715,28 @@ setGlobal('KEYBOARD', keyboard);</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
-			<code>355</code>
-			<Str sr="arg0" ve="3">%app_search_names</Str>
-			<Int sr="arg1">
-				<var>%app_index</var>
-			</Int>
-			<Str sr="arg2" ve="3">%APPNAMES(%app_index)</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
 		<Action sr="act8" ve="7">
-			<code>355</code>
-			<Str sr="arg0" ve="3">%app_search_packages</Str>
-			<Int sr="arg1">
-				<var>%app_index</var>
-			</Int>
-			<Str sr="arg2" ve="3">%APPPACKAGES(%app_index)</Str>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%app_name</Str>
+			<Str sr="arg1" ve="3">%APPNAMES(%app_index)</Str>
+			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act9" ve="7">
-			<code>38</code>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%app_package</Str>
+			<Str sr="arg1" ve="3">%APPPACKAGES(%app_index)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task58">
 		<cdate>1503938513252</cdate>
 		<edate>1503938513252</edate>
 		<id>58</id>
-		<pri>9</pri>
+		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">keyboard-exit</Str>
@@ -1871,6 +1800,97 @@ setGlobal('KEYBOARD', keyboard);</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
+	<Task sr="task85">
+		<cdate>1503836088401</cdate>
+		<edate>1504065823280</edate>
+		<id>85</id>
+		<nme>keyboard-icon</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">keyboard-icon</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%package_name</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">pckmn</Str>
+			<Str sr="arg1" ve="3">CONTEXT</Str>
+			<Str sr="arg2" ve="3">getPackageManager
+{PackageManager} ()</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">app_info</Str>
+			<Str sr="arg1" ve="3">pckmn</Str>
+			<Str sr="arg2" ve="3">getApplicationInfo
+{ApplicationInfo} (String, int)</Str>
+			<Str sr="arg3" ve="3">%package_name</Str>
+			<Str sr="arg4" ve="3">0</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">%icon_id</Str>
+			<Str sr="arg1" ve="3">app_info.icon</Str>
+			<Str sr="arg2" ve="3">assign
+{int} ()</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%icon</Str>
+			<Str sr="arg1" ve="3">android.resource://%package_name/%icon_id</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>188</code>
+			<Img sr="arg0" ve="2">
+				<var>%icon</var>
+			</Img>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>187</code>
+			<Str sr="arg0" ve="3">/storage/sdcard1/software_me/systemWallpaper/keyboard/icon/%package_name.png</Str>
+			<Int sr="arg1" val="60"/>
+			<Int sr="arg2" val="1"/>
+		</Action>
+	</Task>
 	<Task sr="task86">
 		<cdate>1503938513252</cdate>
 		<edate>1503938513252</edate>
@@ -1883,43 +1903,6 @@ setGlobal('KEYBOARD', keyboard);</Str>
 				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3">v</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task87">
-		<cdate>1503581778981</cdate>
-		<edate>1503581778981</edate>
-		<id>87</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">正在打开[%app_search_names(%select_indices)]</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%cur_app_package</Str>
-			<Str sr="arg1" ve="3">%app_search_packages(%select_indices)</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var ok = loadApp(cur_app_package);</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-exit</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
