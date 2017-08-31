@@ -27,6 +27,17 @@ android上基于tasker创建的英文键盘，通过字母快速查找应用，�
 * 2017-08-31版本中可以提示初始化进度、增加按键音效、优化搜索效率
 * 2017-08-30版本中可以展示应用图标
 
+### 编程注意
+* tasker中JavaScriptLet action中不能直接包含script关键字
+```javascript
+var a = "<script>xxxxx</script>";
+//必须将这个关键字分隔开
+var a = "<scr" + "ipt>xxxxx</scr" + "ipt>";
+```
+
+---
+
+
 
 ## 预览
 <div align=center><img height="960" width="540" src="https://github.com/bjc5233/tasker-keyboard/raw/master/resources/demo2.png"/></div>
