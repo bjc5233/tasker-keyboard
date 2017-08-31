@@ -10,6 +10,7 @@ android上基于tasker创建的英文键盘，通过字母快速查找应用，�
 * 将pinyingMine.js放到合适的位置
 * 在tasker->keyboard-init任务中修改pinyingMine.js的位置
 * 在tasker->keyboard-init任务中修改黑名单列表[%apk_blacklist_names]变量的值
+* 在tasker->keyboard-init任务中修改[%KEYBOARD_SOUND_PATH]变量值为音效文件路径。可以使用项目sound文件夹中的几个音效
 * 执行keyboard任务，首次会提示需要生成基础数据[拼音数据、包名数据、图标数据]
 
 ---
@@ -24,6 +25,7 @@ android上基于tasker创建的英文键盘，通过字母快速查找应用，�
 
 ---
 ### 更新
+* 2017-08-31版本中可以提示初始化进度、增加按键音效
 * 2017-08-30版本中可以展示应用图标
 
 
