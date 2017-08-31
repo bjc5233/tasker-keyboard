@@ -7,9 +7,10 @@ android上基于tasker创建的英文键盘，通过字母快速查找应用，�
 ### 配置
 * 安装tasker
 * 导入tasker项目
-* 将pinyingMine.js、apkBlacklistName.txt[可修改为自己的黑名单]放到合适的位置
-* 在tasker->keyboard-pinyin任务中修改pinyingMine.js、apkBlacklistName.txt的位置
-* 首次使用需执行keyboard-init任务，来生成基础应用数据[拼音数据、包名数据、图标数据]
+* 将pinyingMine.js放到合适的位置
+* 在tasker->keyboard-init任务中修改pinyingMine.js的位置
+* 在tasker->keyboard-init任务中修改黑名单列表[%apk_blacklist_names]变量的值
+* 执行keyboard任务，首次会提示需要生成基础数据[拼音数据、包名数据、图标数据]
 
 ---
 ### 使用
