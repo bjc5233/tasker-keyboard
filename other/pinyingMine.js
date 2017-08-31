@@ -8,4 +8,4 @@ arrRslt=arrRslt.concat(tmp);}}}
 return arrRslt;}
 String.prototype.trim=function(){return this.replace(/(^\s*)|(\s*$)/g,"");}
 
-var firstletters = makePy(appname)[0].toLowerCase();
+var firstletters = makePy(app_names_str)[0].toLowerCase();
