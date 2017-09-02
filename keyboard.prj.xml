@@ -3,9 +3,9 @@
 	<Profile sr="prof88" ve="2">
 		<cdate>1504005508429</cdate>
 		<clp>true</clp>
-		<edate>1504191312057</edate>
+		<edate>1504270650775</edate>
 		<id>88</id>
-		<mid0>37</mid0>
+		<mid0>92</mid0>
 		<nme>卸载应用时</nme>
 		<Event sr="con0" ve="2">
 			<code>451</code>
@@ -14,10 +14,9 @@
 	</Profile>
 	<Profile sr="prof89" ve="2">
 		<cdate>1504005508436</cdate>
-		<clp>true</clp>
-		<edate>1504191312295</edate>
+		<edate>1504270650432</edate>
 		<id>89</id>
-		<mid0>37</mid0>
+		<mid0>92</mid0>
 		<nme>安装应用时</nme>
 		<Event sr="con0" ve="2">
 			<code>450</code>
@@ -27,9 +26,9 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1503722608539</cdate>
 		<name>keyboard</name>
-		<pids>88,89</pids>
-		<scenes>keyboard,keyboard-apps</scenes>
-		<tids>39,47,60,42,63,38,59,50,85,34,58,51,55,53,36,86,24,35,40,54,93,43,45,44,41,28,33,52,56,46,49,48,27,37</tids>
+		<pids>89,88</pids>
+		<scenes>keyboard-apps,keyboard</scenes>
+		<tids>40,39,58,49,86,42,85,46,48,51,44,41,34,47,33,55,59,45,63,60,35,38,28,50,36,93,92,54,43,52,53,27,56,24</tids>
 		<Kid sr="Kid">
 			<launchID>27</launchID>
 			<pkg>com.bjc.keyboard</pkg>
@@ -42,7 +41,7 @@
 	</Project>
 	<Scene sr="scenekeyboard">
 		<cdate>1503936806075</cdate>
-		<edate>1504191156298</edate>
+		<edate>1504291774382</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>594</heightPort>
 		<nme>keyboard</nme>
@@ -814,7 +813,7 @@
 	</Scene>
 	<Scene sr="scenekeyboard-apps">
 		<cdate>1504006228201</cdate>
-		<edate>1504190004833</edate>
+		<edate>1504290220734</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>735</heightPort>
 		<nme>keyboard-apps</nme>
@@ -874,7 +873,7 @@
 	</Task>
 	<Task sr="task27">
 		<cdate>1503937210555</cdate>
-		<edate>1504158153838</edate>
+		<edate>1504291514381</edate>
 		<id>27</id>
 		<nme>keyboard</nme>
 		<pri>100</pri>
@@ -1064,261 +1063,6 @@
 			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task37">
-		<cdate>1503400909271</cdate>
-		<edate>1504191304156</edate>
-		<id>37</id>
-		<nme>keyboard-init</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">keyboard正在执行初始化，请等待完成提示</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%KEYBOARD_INIT_DONE</Str>
-			<Str sr="arg1" ve="3">false</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%show_progress</Str>
-			<Str sr="arg1" ve="3">%app_all_index%10</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="1"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%show_progress</lhs>
-					<op>0</op>
-					<rhs>0</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%progress</Str>
-			<Str sr="arg1" ve="3">%app_all_index/%appresult(#)*100</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="1"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">keyboard初始化当前进度:%progress%</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>344</code>
-			<Int sr="arg0" val="8"/>
-			<Str sr="arg1" ve="3">%oneapp</Str>
-			<Str sr="arg2" ve="3">%appname</Str>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%is_in_blacklist</Str>
-			<Str sr="arg1" ve="3">0</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>39</code>
-			<Str sr="arg0" ve="3">%apk_blacklist_name</Str>
-			<Str sr="arg1" ve="3">%apk_blacklist_names(1:)</Str>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%is_in_blacklist</Str>
-			<Str sr="arg1" ve="3">1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%appname</lhs>
-					<op>0</op>
-					<rhs>%apk_blacklist_name</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>40</code>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>354</code>
-			<Str sr="arg0" ve="3">%apk_blacklist_names</Str>
-			<Str sr="arg1" ve="3">ExServiceUI;WallpaperManager;BlackGestureCustom;Secure UI Service;WeatherSnow;翻转解锁;相框;UserInfoSettings;WeatherThundershower;WeatherDandelion;GlobalThemeContentProvider;ColorOSLauncherSystem;Pico TTS;刷刷乐;WeatherFog;C2U;org.codeaurora.btmultisim;主题商店辅助组件;SVI Settings;Screenshot Delay Remover;NearmeDataSync;PermissonsProvider;全局手势板;微X模块;自由截屏;OppoWeatherLocationService;安全服务;SafeProvider;Android 系统;号码归属地;帐号服务;VwuService;ColorOS 系统;Content Adaptive Backlight Settings;骚扰拦截;WeatherHaze;RHGNFCTSM2;卡片解锁;TaskManager;个人中心;AllowUsbDebuggingCritically;PreventMode;org.codeaurora.ims;支付宝安全校验服务;OppoKinectService;百变解锁;SmartcardService;OppoGestureGuide;WeatherSunny;NearMeDCS;上滑解锁;WeatherCloudy;oppo_debug;ColorOSUsbSelection;开机注册;WeatherRain;ProxyKeyguard;LocationServices;NetworkLocation;Wfd Service;NFC闪电传输;oppo_debug;org.codeaurora.bluetooth;DataDialog;DisableFlagSecure;usbSelection</Str>
-			<Str sr="arg2" ve="3">;</Str>
-		</Action>
-		<Action sr="act20" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<bool1>And</bool1>
-				<Condition sr="c0" ve="3">
-					<lhs>%appname</lhs>
-					<op>3</op>
-					<rhs>*com.*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%oneapp</lhs>
-					<op>3</op>
-					<rhs>*com.android*</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%is_in_blacklist</lhs>
-					<op>0</op>
-					<rhs>0</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act21" ve="7">
-			<code>355</code>
-			<Str sr="arg0" ve="3">%APP_PACKAGES</Str>
-			<Int sr="arg1">
-				<var>%APP_INDEX</var>
-			</Int>
-			<Str sr="arg2" ve="3">%oneapp</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act22" ve="7">
-			<code>355</code>
-			<Str sr="arg0" ve="3">%APP_NAMES</Str>
-			<Int sr="arg1">
-				<var>%APP_INDEX</var>
-			</Int>
-			<Str sr="arg2" ve="3">%appname</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act23" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%app_names_str</Str>
-			<Str sr="arg1" ve="3">%appname;</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act24" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">keyboard-icon</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Str sr="arg2" ve="3">%oneapp</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act25" ve="7">
-			<code>888</code>
-			<Str sr="arg0" ve="3">%APP_INDEX</Str>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act26" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act27" ve="7">
-			<code>888</code>
-			<Str sr="arg0" ve="3">%app_all_index</Str>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act28" ve="7">
-			<code>40</code>
-		</Action>
-		<Action sr="act29" ve="7">
-			<code>131</code>
-			<Str sr="arg0" ve="3">/storage/sdcard1/software_me/systemWallpaper/keyboard/pinyingMine.js</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>357</code>
-			<Str sr="arg0" ve="3">%APP_PACKAGES</Str>
-		</Action>
-		<Action sr="act30" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%APP_PINYINS</Str>
-			<Str sr="arg1" ve="3">%firstletters</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act31" ve="7">
-			<code>590</code>
-			<Str sr="arg0" ve="3">%APP_PINYINS</Str>
-			<Str sr="arg1" ve="3">;</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act32" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%KEYBOARD_SOUND_PATH</Str>
-			<Str sr="arg1" ve="3">/storage/sdcard1/software_me/systemWallpaper/keyboard/sound/sound3.wav</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act33" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%KEYBOARD_INIT_DONE</Str>
-			<Str sr="arg1" ve="3">true</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act34" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">keyboard初始化执行完成</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>357</code>
-			<Str sr="arg0" ve="3">%APP_NAMES</Str>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>357</code>
-			<Str sr="arg0" ve="3">%APP_PINYINS</Str>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>815</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3">%appresult</Str>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%APP_INDEX</Str>
-			<Str sr="arg1" ve="3">1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%app_all_index</Str>
-			<Str sr="arg1" ve="3">1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>39</code>
-			<Str sr="arg0" ve="3">%oneapp</Str>
-			<Str sr="arg1" ve="3">%appresult(1:)</Str>
-		</Action>
-	</Task>
 	<Task sr="task38">
 		<cdate>1503938544640</cdate>
 		<edate>1503938544640</edate>
@@ -1491,26 +1235,11 @@
 	</Task>
 	<Task sr="task48">
 		<cdate>1503517251400</cdate>
-		<edate>1504191196516</edate>
+		<edate>1504291858164</edate>
 		<id>48</id>
 		<nme>keyboard-del</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>445</code>
-			<Str sr="arg0" ve="3">%KEYBOARD_SOUND_PATH</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="5"/>
-			<Int sr="arg4" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%KEYBOARD_SOUND_PATH</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
 			<code>129</code>
 			<Str sr="arg0" ve="3">var keyboard = global('KEYBOARD');
 keyboard = keyboard.substring(0, keyboard.length-1);
@@ -1526,13 +1255,28 @@ setGlobal('KEYBOARD', keyboard);</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act1" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%KEYBOARD</lhs>
 					<op>0</op>
 					<rhs>\%KEYBOARD</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>445</code>
+			<Str sr="arg0" ve="3">%KEYBOARD_SOUND_PATH</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%KEYBOARD_SOUND_PATH</lhs>
+					<op>12</op>
+					<rhs></rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -1682,7 +1426,7 @@ setGlobal('KEYBOARD', keyboard);</Str>
 	</Task>
 	<Task sr="task56">
 		<cdate>1503489725546</cdate>
-		<edate>1504191202320</edate>
+		<edate>1504319580762</edate>
 		<id>56</id>
 		<nme>keyboard-exit</nme>
 		<pri>100</pri>
@@ -1788,7 +1532,7 @@ setGlobal('KEYBOARD', keyboard);</Str>
 	</Task>
 	<Task sr="task85">
 		<cdate>1503836088401</cdate>
-		<edate>1504157823163</edate>
+		<edate>1504319574655</edate>
 		<id>85</id>
 		<nme>keyboard-icon</nme>
 		<pri>100</pri>
@@ -1815,7 +1559,7 @@ setGlobal('KEYBOARD', keyboard);</Str>
 		<Action sr="act10" ve="7">
 			<code>187</code>
 			<Str sr="arg0" ve="3">%icon_path</Str>
-			<Int sr="arg1" val="50"/>
+			<Int sr="arg1" val="20"/>
 			<Int sr="arg2" val="1"/>
 		</Action>
 		<Action sr="act11" ve="7">
@@ -1923,9 +1667,229 @@ setGlobal('KEYBOARD', keyboard);</Str>
 			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
+	<Task sr="task92">
+		<cdate>1503400909271</cdate>
+		<edate>1504319535510</edate>
+		<id>92</id>
+		<nme>keyboard-init</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">keyboard</Str>
+			<Str sr="arg1" ve="3">keyboard正在执行初始化，请等待完成提示</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%KEYBOARD_INIT_DONE</Str>
+			<Str sr="arg1" ve="3">false</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>129</code>
+			<label>通知初始化进度</label>
+			<Str sr="arg0" ve="3">if (app_all_index%10 == 0) {
+	var progress = Math.round(app_all_index/app_packages.length*100);
+	flash("keyboard初始化当前进度：" + progress + "%");
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>344</code>
+			<Int sr="arg0" val="8"/>
+			<Str sr="arg1" ve="3">%app_package</Str>
+			<Str sr="arg2" ve="3">%app_name</Str>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%app_name</lhs>
+					<op>3</op>
+					<rhs>*com.*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%app_package</lhs>
+					<op>3</op>
+					<rhs>*com.android*</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%apk_blacklist_names_str;</lhs>
+					<op>3</op>
+					<rhs>*%app_name;*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%APP_PACKAGES</Str>
+			<Int sr="arg1">
+				<var>%app_vaild_index</var>
+			</Int>
+			<Str sr="arg2" ve="3">%app_package</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>355</code>
+			<Str sr="arg0" ve="3">%APP_NAMES</Str>
+			<Int sr="arg1">
+				<var>%app_vaild_index</var>
+			</Int>
+			<Str sr="arg2" ve="3">%app_name</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%app_names_str</Str>
+			<Str sr="arg1" ve="3">%app_name;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">keyboard-icon</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3">%app_package</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%app_vaild_index</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%app_all_index</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%apk_blacklist_names_str</Str>
+			<Str sr="arg1" ve="3">ExServiceUI;WallpaperManager;BlackGestureCustom;Secure UI Service;WeatherSnow;翻转解锁;相框;UserInfoSettings;WeatherThundershower;WeatherDandelion;GlobalThemeContentProvider;ColorOSLauncherSystem;Pico TTS;刷刷乐;WeatherFog;C2U;org.codeaurora.btmultisim;主题商店辅助组件;SVI Settings;Screenshot Delay Remover;NearmeDataSync;PermissonsProvider;全局手势板;微X模块;自由截屏;OppoWeatherLocationService;安全服务;SafeProvider;Android 系统;号码归属地;帐号服务;VwuService;ColorOS 系统;Content Adaptive Backlight Settings;骚扰拦截;WeatherHaze;RHGNFCTSM2;卡片解锁;TaskManager;个人中心;AllowUsbDebuggingCritically;PreventMode;org.codeaurora.ims;支付宝安全校验服务;OppoKinectService;百变解锁;SmartcardService;OppoGestureGuide;WeatherSunny;NearMeDCS;上滑解锁;WeatherCloudy;oppo_debug;ColorOSUsbSelection;开机注册;WeatherRain;ProxyKeyguard;LocationServices;NetworkLocation;Wfd Service;NFC闪电传输;oppo_debug;org.codeaurora.bluetooth;DataDialog;DisableFlagSecure;usbSelection;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>129</code>
+			<label>应用名拼音数据</label>
+			<Str sr="arg0" ve="3">var first_letters_str = makePy(app_names_str)[0].toLowerCase();</Str>
+			<Str sr="arg1" ve="3">/storage/sdcard1/software_me/systemWallpaper/keyboard/pinying.js</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%APP_PINYINS</Str>
+			<Str sr="arg1" ve="3">%first_letters_str</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%APP_PINYINS</Str>
+			<Str sr="arg1" ve="3">;</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%APP_INDEX</Str>
+			<Str sr="arg1" ve="3">%app_vaild_index-1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%KEYBOARD_SOUND_PATH</Str>
+			<Str sr="arg1" ve="3">/storage/sdcard1/software_me/systemWallpaper/keyboard/sound/sound3.wav</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%KEYBOARD_INIT_DONE</Str>
+			<Str sr="arg1" ve="3">true</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">keyboard</Str>
+			<Str sr="arg1" ve="3">keyboard初始化执行完成</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%APP_PACKAGES</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%APP_NAMES</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>357</code>
+			<Str sr="arg0" ve="3">%APP_PINYINS</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>815</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">%app_packages</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%app_vaild_index</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%app_all_index</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%app_package</Str>
+			<Str sr="arg1" ve="3">%app_packages()</Str>
+		</Action>
+	</Task>
 	<Task sr="task93">
 		<cdate>1503555408808</cdate>
-		<edate>1504191177647</edate>
+		<edate>1504319542428</edate>
 		<id>93</id>
 		<nme>keyboard-search</nme>
 		<pri>100</pri>
@@ -1960,23 +1924,11 @@ setGlobal('KEYBOARD', keyboard);</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">keyboard-search</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%KEYBOARD</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
 			<code>49</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">keyboard-apps</Str>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act3" ve="7">
 			<code>51</code>
 			<Str sr="arg0" ve="3">keyboard</Str>
 			<Str sr="arg1" ve="3">input</Str>
@@ -1984,7 +1936,7 @@ setGlobal('KEYBOARD', keyboard);</Str>
 			<Str sr="arg3" ve="3">%KEYBOARD</Str>
 			<Str sr="arg4" ve="3"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act4" ve="7">
 			<code>129</code>
 			<Str sr="arg0" ve="3">var keyboard = global('KEYBOARD');
 var apps_html = "&lt;!DOCTYPE html&gt;&lt;html xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;style&gt;img{width:25px;height:25px;vertical-align:middle;}.app{margin:5px;font-size:14px;color:#FFFFFF}&lt;/style&gt;&lt;body&gt;";
@@ -2010,7 +1962,7 @@ apps_html += "&lt;scr" + "ipt&gt;function exec(app, package) {loadApp(package);p
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="45"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act5" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">keyboard-apps</Str>
 			<Int sr="arg1" val="1"/>

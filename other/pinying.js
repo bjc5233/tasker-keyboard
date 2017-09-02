@@ -7,5 +7,3 @@ function mkRslt(arr){var arrRslt=[""];for(var i=0,len=arr.length;i<len;i++){var 
 arrRslt=arrRslt.concat(tmp);}}}
 return arrRslt;}
 String.prototype.trim=function(){return this.replace(/(^\s*)|(\s*$)/g,"");}
-
-var firstletters = makePy(app_names_str)[0].toLowerCase();
