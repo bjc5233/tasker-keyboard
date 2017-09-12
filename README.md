@@ -7,11 +7,13 @@ android上基于tasker创建的英文键盘，通过字母快速查找应用，�
 ### 配置
 * 安装tasker
 * 导入tasker项目
-* 将pinyingMine.js放到合适的位置
-* 在tasker->keyboard-init任务中修改pinyingMine.js的位置
-* 在tasker->keyboard-init任务中修改黑名单列表[%apk_blacklist_names]变量的值
-* 在tasker->keyboard-init任务中修改[%KEYBOARD_SOUND_PATH]变量值为音效文件路径。可以使用项目sound文件夹中的几个音效
+* 在keyboard-init任务中配置项目根据经[KEYBOARD_ROOT_PATH]，并放入[pinying.js]
+* 在keyboard-init任务中配置黑名单列表[apk_blacklist_names]
+* 在keyboard-init任务中配置按键音效路径[KEYBOARD_SOUND_PATH]。可以使用项目sound文件夹中的几个音效
+* 在keyboard-init任务中配置样式风格[KEYBOARD_STYLE]，可选值为[黑色dark\随壁纸color]；当选择color时，需要同时配置透明度[KEYBOARD_STYLE_COLOR_TRANS]，可选值为[0-1]
+* [KEYBOARD_STYLE = color]需要[tasker-common](https://github.com/bjc5233/tasker-common)中的[tasker-comm-wallpaper-color]模块支持
 * 执行keyboard任务，首次会提示需要生成基础数据[拼音数据、包名数据、图标数据]
+
 
 ---
 ### 使用
@@ -24,6 +26,7 @@ android上基于tasker创建的英文键盘，通过字母快速查找应用，�
 
 ---
 ### 更新
+* 2017-09-12版本中增加新的界面样式、注释
 * 2017-08-31版本中可以提示初始化进度、增加按键音效、优化搜索效率
 * 2017-08-30版本中可以展示应用图标
 
@@ -40,5 +43,11 @@ var a = "<scr" + "ipt>xxxxx</scr" + "ipt>";
 
 
 ## 预览
+<div align=center><img height="960" width="540" src="https://github.com/bjc5233/tasker-keyboard/raw/master/resources/Screenshot_2017-09-12-13-56-25-914.png"/></div>
+<br>
+<div align=center><img height="960" width="540" src="https://github.com/bjc5233/tasker-keyboard/raw/master/resources/Screenshot_2017-09-12-13-57-21-229.png"/></div>
+
+---
+KEYBOARD_STYLE => dark
 <div align=center><img height="960" width="540" src="https://github.com/bjc5233/tasker-keyboard/raw/master/resources/demo2.png"/></div>
 <div align=center><img height="480" width="270" src="https://github.com/bjc5233/tasker-keyboard/raw/master/resources/demo2.gif"/></div>
