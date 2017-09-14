@@ -7,7 +7,7 @@ android上基于tasker创建的英文键盘，通过字母快速查找应用，�
 ### 配置
 * 安装tasker
 * 导入tasker项目
-* 在keyboard-init任务中配置项目根据经[KEYBOARD_ROOT_PATH]，并放入[pinying.js]
+* 在keyboard-init任务中配置项目根据经[KEYBOARD_ROOT_PATH]，并放入[pinying.js][jquery-3.2.1.min.js]
 * 在keyboard-init任务中配置黑名单列表[apk_blacklist_names]
 * 在keyboard-init任务中配置按键音效路径[KEYBOARD_SOUND_PATH]。可以使用项目sound文件夹中的几个音效
 * 在keyboard-init任务中配置样式风格[KEYBOARD_STYLE]，可选值为[黑色dark\随壁纸color]；当选择color时，需要同时配置透明度[KEYBOARD_STYLE_COLOR_TRANS]，可选值为[0-1]
@@ -26,6 +26,7 @@ android上基于tasker创建的英文键盘，通过字母快速查找应用，�
 
 ---
 ### 更新
+* 2017-09-14版本中重写搜索和界面展示代码，加快搜索速度
 * 2017-09-12版本中增加新的界面样式、注释
 * 2017-08-31版本中可以提示初始化进度、增加按键音效、优化搜索效率
 * 2017-08-30版本中可以展示应用图标
